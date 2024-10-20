@@ -20,7 +20,7 @@ int main() {
 
 	string line;
 	while (getline(infile, line)) {
-		cout << line << endl;
+		outfile << line << endl;
 	}
 	infile.close();
 	return 0;

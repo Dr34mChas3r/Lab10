@@ -22,6 +22,7 @@ int main() {
 	while (getline(infile, line)) {
 		outfile << line << endl;
 	}
+	cout << "Copied lines from input.txt to output.txt!" << endl;
 	infile.close();
 	return 0;
 }
